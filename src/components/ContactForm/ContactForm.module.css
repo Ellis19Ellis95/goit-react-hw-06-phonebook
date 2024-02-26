@@ -1,0 +1,47 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.label {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.input {
+	outline: none;
+	border: 1px solid #168039;
+	border-radius: 2px;
+	padding: 5px 10px;
+	font-size: 15px;
+	transition: all ease-in-out 300ms;
+}
+
+.input:hover {
+	box-shadow: 4px 4px 8px rgb(5, 60, 26);
+}
+.input:focus {
+	border: 1px solid rgb(5, 60, 26);
+	box-shadow: unset;
+}
+
+.btn {
+	border: none;
+	background-color: #168039;
+	padding: 10px 15px;
+	color: white;
+	border-radius: 2px;
+	box-shadow: 4px 4px 8px rgb(5, 60, 26);
+	transition: all ease-in-out 300ms;
+	cursor: pointer;
+	text-transform: capitalize;
+	max-width: 150px;
+	margin: 0 auto;
+}
+
+.btn:hover {
+	scale: 1.05;
+}
